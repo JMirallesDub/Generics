@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Pollens" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\ProjectsV12;Initial Catalog=Pollens;Integrated Security=True" SettingsObjectName="Generics.Properties.Settings" SettingsPropertyName="PollensConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.nombre_polenes" Member="nombre_polenes">
+    <Type Name="nombre_polene">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="polen" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="nulo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="bajo" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="medio" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="alto" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="nombre_grafico" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.polenes" Member="polenes">
+    <Type Name="polene">
+      <Column Name="Fecha" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Ciudad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Acer" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Alnu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Apia" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Arte" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Betu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Bras" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cann" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cast" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Casu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cedr" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Comp" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cory" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cupr" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cype" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Chen" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Eric" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Frax" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Heli" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Junc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Ligu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Merc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Mora" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Myrt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Olea" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Palm" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Pinu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="[Plan]" Member="Plan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Plat" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Poac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Popu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Quer" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Rosa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Rume" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Sali" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Samb" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Ulmu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Urti" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Umem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="zygo" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

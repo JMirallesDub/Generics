@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b18bf58f-de74-4909-b1a1-44748a0920e0" name="UMLClassDiagram1" linkedPackageId="720faa0d-c05a-435e-84d5-b64a32e021b7" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <referencesInternal>
+    <reference Id="0fecf974-3569-406d-8883-ade865f4d726" handle="%joseeugenio.visualstudio.com\DefaultCollection#7f416661-eaf0-4e62-a332-55f05ec4d330$2" tag="Work Item Reference" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="a4607de1-e91b-4e60-aa3e-118b2926e2ee">
+      <profileInstance Id="8e33c785-cbe0-40e0-b4ae-f1caf26de293" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f809e19e-f80f-48eb-b7d9-702b9b839a04">
+      <profileInstance Id="d1175d3a-035f-4b56-a2c9-919fc4459a6d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <package Id="720faa0d-c05a-435e-84d5-b64a32e021b7" name="ModelingProject1">
+    <elementDefinition Id="f9fc3062-3976-4e71-a5f7-e376e1c49389" />
+  </package>
+</logicalClassDesignerModel>
